@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/mobile-first-workflow-css-grid-vanilla-js-9sI_cvz8D](https://www.frontendmentor.io/solutions/mobile-first-workflow-css-grid-vanilla-js-9sI_cvz8D)
+- Live Site URL: [https://madegilangaditya.github.io/intro-component-with-signup-form-master/](https://madegilangaditya.github.io/intro-component-with-signup-form-master/)
 
 ## My process
 
