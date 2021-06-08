@@ -1,6 +1,6 @@
 @media all and (min-width:800px) {
     .showcase{
-        padding: 121px 0;
+        padding: 121px 10px;
         background: center/cover no-repeat url(../images/bg-intro-desktop.png), $primary-color1;
     }
 
@@ -15,6 +15,7 @@
     .title-col{
         text-align: left;
         margin-bottom: 0;
+        padding-right: 20px;
 
         h1{
             font-size: 3.125rem;
