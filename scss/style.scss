@@ -1,0 +1,121 @@
+$primary-color1: hsl(0, 100%, 74%);
+$primary-color2: hsl(154, 59%, 51%);
+$accent-color: hsl(248, 32%, 49%);
+$neutral-color1: hsl(249, 10%, 26%);
+$neutral-color2: hsl(246, 25%, 77%);
+$font: 'Poppins', sans-serif;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+}
+
+body{
+    font: 400 1rem/1.5 $font;
+    color: #fff;
+}
+
+.showcase{
+    min-height: 100vh;
+    padding: 94px 24px 68px;
+    background: center/cover no-repeat url(../images/bg-intro-mobile.png), $primary-color1;
+}
+
+.title-col{
+    margin-bottom: 66px;
+    text-align: center;
+
+    h1{
+        margin-bottom: 30px;
+    }
+}
+
+.form-title{
+    padding: 20px 45px;
+    border-radius: 10px;
+    background-color: $accent-color;
+    text-align: center;
+    box-shadow: 0px 8px 0px rgba(62, 60, 73, .41);
+    margin-bottom: 23px;
+}
+
+.form-content{
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 0px rgba(62, 60, 73, .41);
+
+    .form-control{
+        position: relative;
+        margin-bottom: 16px;
+
+        input, 
+        .form-btn{
+            width: 100%;
+            padding: 17px 20px;
+            border-radius: 10px;
+            border: 1px solid hsl(246, 25%, 77%);
+        }
+
+        input:focus{
+            border-color: $neutral-color1;
+        }
+
+        ::placeholder, input{
+            font-weight: 600;
+        }
+
+        .form-btn{
+            background-color: $primary-color2;
+            color: #fff;
+            border-color:$primary-color2;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-weight: 400;
+            letter-spacing: .65px;
+            box-shadow: inset 0px -4px 0px rgba(62, 60, 73, .41);
+        }
+
+        .error-icon{
+            position: absolute;
+            right: 10px;
+            left: auto;
+            top: 16px;
+            display: none;
+        }
+
+        .error-text{
+            color: $primary-color1;
+            font-size: 12px;
+            text-align: right;
+            font-style: italic;
+            display: none;
+        }
+        
+    }
+
+    .terms{
+        color: $neutral-color2;
+        text-align: center;
+        font-size: 0.875rem;
+
+        span{
+            color: $primary-color1;
+        }
+    }
+
+    .error-active{
+        .error-icon,
+        .error-text{
+            display: block;
+        }
+        input{
+            border: 2px solid $primary-color1;
+            color: $primary-color1;
+        }
+    }
+}
+
+@import 'responsive';

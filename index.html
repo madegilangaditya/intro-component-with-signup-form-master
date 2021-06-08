@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+</head>
+<body>
+  <div class="showcase">
+    <div class="showcase-card">
+      <div class="title-col">
+        <h1>Learn to code by watching others</h1>
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable. </p>
+      </div>
+      <div class="form-col">
+        <div class="form-title">
+          <strong>Try it free 7 days</strong> then $20/mo. thereafter
+        </div>
+        <form class="form-submit">
+          <div class="form-content">
+            <div class="form-control fname-control">
+              <input class="first-name" type="text" placeholder="First Name" aria-label="First Name">
+              <img class="error-icon" src="images/icon-error.svg" alt="" width="24" aria-live="polite">
+              <span class="error-text error-fname">First Name cannot be empty</span>
+            </div>
+            <div class="form-control lname-control">
+              <input class="last-name" type="text" placeholder="Last Name" aria-label="Last Name">
+              <img class="error-icon" src="images/icon-error.svg" alt="" width="24" aria-live="polite">
+              <span class="error-text error-lname">Last Name cannot be empty</span>
+            </div>
+            <div class="form-control email-control">
+              <input class="email" type="text" placeholder="Email Address" aria-label="Email">
+              <img class="error-icon" src="images/icon-error.svg" alt="" width="24" aria-live="polite">
+              <span class="error-text error-email">Looks like this is not an email</span>
+            </div>
+            <div class="form-control password-control">
+              <input class="password" type="password" placeholder="Password" aria-label="Password">
+              <img class="error-icon" src="images/icon-error.svg" alt="" width="24" aria-live="polite">
+              <span class="error-text error-password">Password cannot be empty</span>
+            </div>
+            <div class="form-control">
+              <input type="submit" class="form-btn" value="Claim your free trial">
+            </div>
+            <div class="form-control terms">
+              By clicking the button, you are agreeing to our <span>Terms and Services</span>
+            </div>
+          </div>
+        </form>
+        
+      </div>
+    </div>
+  </div>
+  <script src="js/style.js"></script>
+ 
+
+  
+  
+</body>
+</html>
