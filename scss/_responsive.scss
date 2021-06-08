@@ -1,6 +1,6 @@
 @media all and (min-width:800px) {
     .showcase{
-        padding: 77px 0;
+        padding: 121px 0;
         background: center/cover no-repeat url(../images/bg-intro-desktop.png), $primary-color1;
     }
 
@@ -19,6 +19,14 @@
         h1{
             font-size: 3.125rem;
             line-height: 1.2;
+        }
+    }
+
+    .form-content{
+        padding: 40px;
+
+        .terms{
+            font-size: 0.75rem;
         }
     }
 }
